@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AuraDental | Clínica Odontológica</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <script src="script.js" defer></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+
+    
+    <header class="header">
+        <nav class="navbar container">
+<a href="#inicio" class="logo">
+    <span class="tooth">🦷</span>Aura<span>Dental</span>
+</a>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">
+                ☰
+            </button>
+
+            <div class="nav-links" id="navLinks">
+                <a href="#inicio" class="active">Inicio</a>
+                <a href="#servicios">Servicios</a>
+                <a href="#nosotros">Nosotros</a>
+                <a href="#testimonios">Testimonios</a>
+                <a href="#contacto">Contacto</a>
+            </div>
+
+            <a href="#contacto" class="btn nav-btn">Agendar Cita</a>
+
+        </nav>
+    </header>
+
+
+    <main>
+
+        <section class="hero" id="inicio">
+
+            <div class="hero-content">
+
+                <span class="hero-label">NUEVA APERTURA 2025</span>
+
+                <h1>
+                    Tu sonrisa merece<br>
+                    <span>lo extraordinario</span>
+                </h1>
+
+                <p>
+                    Bienvenido a Clínica Dental Aura. Tecnología de vanguardia,
+                    un equipo apasionado y un ambiente diseñado para tu confort.
+                    Comienza tu camino hacia una sonrisa perfecta.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#contacto" class="btn">Agendar mi cita</a>
+                    <a href="#servicios" class="btn-outline">Ver servicios</a>
+                </div>
+
+                <div class="stats">
+
+                    <div class="stat">
+                        <strong>15+</strong>
+                        <span>Años de experiencia</span>
+                    </div>
+
+                    <div class="stat">
+                        <strong>8k+</strong>
+                        <span>Sonrisas transformadas</span>
+                    </div>
+
+                    <div class="stat">
+                        <strong>98%</strong>
+                        <span>Pacientes satisfechos</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <a href="#servicios" class="scroll-indicator" aria-label="Desplazarse hacia abajo">
+                <span></span>
+            </a>
+
+        </section>
+
+
+        <section class="services section" id="servicios">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-label">NUESTROS SERVICIOS</span>
+
+                    <h2>
+                        Cuidado integral para cada<br>
+                        sonrisa
+                    </h2>
+
+                    <p>
+                        Ofrecemos tratamientos personalizados con los más altos
+                        estándares de calidad y la última tecnología dental.
+                    </p>
+
+                </div>
+
+
+                <div class="services-grid">
+
+                    <article class="service-card">
+
+<div class="service-icon">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin-plus-inside preview-icon"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><path d="M12 7v6"/><path d="M9 10h6"/></svg>
+</div>
+                        <h3>Ortodoncia</h3>
+
+                        <p>
+                            Brackets tradicionales, alineadores invisibles y
+                            tratamientos personalizados para una sonrisa alineada
+                            y saludable.
+                        </p>
+
+                        <a href="#contacto">Más información →</a>
+
+                    </article>
+
+
+                    <article class="service-card">
+
+                       <div class="service-icon">
+    <i data-lucide="circle-check"></i>
+</div>
+
+                        <h3>Implantes Dentales</h3>
+
+                        <p>
+                            Recupera la funcionalidad y estética de tus dientes
+                            con implantes de titanio de alta calidad y resultados
+                            naturales.
+                        </p>
+
+                        <a href="#contacto">Más información →</a>
+
+                    </article>
+
+
+                    <article class="service-card">
+
+                       <div class="service-icon">
+                     <span class="mi-icono">  ∩
+                                                                                              </span>
+                        </div>
+                        <h3>Blanqueamiento</h3>
+
+                        <p>
+                            Logra una sonrisa radiante con nuestros tratamientos
+                            de blanqueamiento profesional, seguros y de resultados
+                            inmediatos.
+                        </p>
+
+                        <a href="#contacto">Más información →</a>
+
+                    </article>
+
+
+                    <article class="service-card">
+
+                       <div class="service-icon">
+   <i data-lucide="clipboard"></i>
+</div>
+
+                        <h3>Estética Dental</h3>
+
+                        <p>
+                            Carillas, coronas y diseños de sonrisa personalizados
+                            para transformar tu imagen con naturalidad y armonía.
+                        </p>
+
+                        <a href="#contacto">Más información →</a>
+
+                    </article>
+
+
+                    <article class="service-card">
+
+                        <div class="service-icon">↕</div>
+
+                        <h3>Endodoncia</h3>
+
+                        <p>
+                            Tratamientos de conducto precisos y sin dolor para
+                            salvar tus dientes naturales y eliminar el dolor
+                            de raíz.
+                        </p>
+
+                        <a href="#contacto">Más información →</a>
+
+                    </article>
+
+
+                    <article class="service-card">
+
+      <div class="service-icon">
+   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user-round preview-icon"><circle cx="12" cy="8" r="5"/><path d="M20 21a8 8 0 0 0-16 0"/></svg>
+</div>
+
+                        <h3>Odontopediatría</h3>
+
+                        <p>
+                            Atención especializada y amable para los más pequeños,
+                            creando hábitos saludables desde la infancia.
+                        </p>
+
+                        <a href="#contacto">Más información →</a>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="about section" id="nosotros">
+
+            <div class="container about-grid">
+
+                <div class="about-content">
+
+                    <span class="section-label">SOBRE NOSOTROS</span>
+
+                    <h2>
+                        Más que una clínica,<br>
+                        un espacio de confianza
+                    </h2>
+
+                    <p>
+                        En Clínica Dental Aura nacimos con una visión clara:
+                        transformar la experiencia odontológica. Combinamos
+                        tecnología de última generación con un trato humano
+                        cercano y profesional.
+                    </p>
+
+                    <p>
+                        Nuestra nueva sede ha sido diseñada para ofrecer comodidad,
+                        tranquilidad y resultados excepcionales en cada visita.
+                    </p>
+
+<ul class="about-list">
+    <li>
+        <span class="check-icon">✓</span>
+        Tecnología digital de diagnóstico preciso
+    </li>
+
+    <li>
+        <span class="check-icon">✓</span>
+        Equipo de especialistas certificados
+    </li>
+
+    <li>
+        <span class="check-icon">✓</span>
+        Ambiente relajante y libre de estrés
+    </li>
+
+    <li>
+        <span class="check-icon">✓</span>
+        Planes de pago flexibles y transparentes
+    </li>
+</ul>
+
+                    <a href="#contacto" class="btn">
+                        Conoce más de nosotros
+                    </a>
+
+                </div>
+
+
+                <div class="about-features">
+
+                    <article class="feature-card">
+
+                        <div class="feature-icon">🏥</div>
+
+                        <h3>Instalaciones modernas</h3>
+
+                        <p>
+                            Consultorios equipados con lo último en tecnología dental.
+                        </p>
+
+                    </article>
+
+
+                    <article class="feature-card">
+
+                        <div class="feature-icon">👨‍⚕️</div>
+
+                        <h3>Equipo experto</h3>
+
+                        <p>
+                            Profesionales con trayectoria y formación continua.
+                        </p>
+
+                    </article>
+
+
+                    <article class="feature-card">
+
+                        <div class="feature-icon">💙</div>
+
+                        <h3>Atención personalizada</h3>
+
+                        <p>
+                            Cada paciente recibe un plan de tratamiento único.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="banner">
+
+            <div class="container banner-content">
+
+                <h2>¿Listo para transformar tu sonrisa?</h2>
+
+                <p>
+                    Agenda tu primera valoración sin compromiso y descubre el
+                    cuidado que mereces.
+                </p>
+
+                <a href="#contacto" class="banner-btn">
+                    Reservar mi cita ahora
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <section class="testimonials section" id="testimonios">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-label">TESTIMONIOS</span>
+
+                    <h2>Lo que dicen nuestros pacientes</h2>
+
+                    <p>
+                        La confianza de quienes ya han vivido la experiencia
+                        Aura es nuestro mayor orgullo.
+                    </p>
+
+                </div>
+
+
+                <div class="testimonial-grid">
+
+                    <article class="testimonial-card">
+
+                        <div class="stars">★★★★★</div>
+
+                        <p>
+                            "Desde el primer momento me sentí en confianza.
+                            El equipo es increíblemente profesional y amable.
+                            Mi tratamiento de ortodoncia superó todas mis
+                            expectativas."
+                        </p>
+
+                        <div class="patient">
+
+                            <div class="patient-avatar">MG</div>
+
+                            <div>
+                                <h4>María González</h4>
+                                <span>Ortodoncia</span>
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="testimonial-card">
+
+                        <div class="stars">★★★★★</div>
+
+                        <p>
+                            "Tenía mucho miedo a los dentistas, pero en Aura
+                            todo cambió. El ambiente es relajante y el tratamiento
+                            de implantes fue mucho más cómodo de lo que imaginaba."
+                        </p>
+
+                        <div class="patient">
+
+                            <div class="patient-avatar">CR</div>
+
+                            <div>
+                                <h4>Carlos Ramírez</h4>
+                                <span>Implantes</span>
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="testimonial-card">
+
+                        <div class="stars">★★★★★</div>
+
+                        <p>
+                            "El blanqueamiento dejó mi sonrisa radiante.
+                            La atención es impecable y se nota que se preocupan
+                            de verdad por cada paciente. Totalmente recomendados."
+                        </p>
+
+                        <div class="patient">
+
+                            <div class="patient-avatar">LV</div>
+
+                            <div>
+                                <h4>Laura Vargas</h4>
+                                <span>Blanqueamiento</span>
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="contact section" id="contacto">
+
+            <div class="container contact-grid">
+
+                <div class="contact-info">
+
+                    <span class="section-label">CONTACTO</span>
+
+                    <h2>Agenda tu cita</h2>
+
+                    <p>
+                        Completa el formulario y nos pondremos en contacto
+                        contigo lo antes posible para confirmar tu valoración.
+                    </p>
+
+
+                    <div class="contact-item">
+
+                        <span class="contact-icon">📍</span>
+
+                        <div>
+                            <h4>Dirección</h4>
+                            <p>Av. Paleca, N° 12-B, Zona centro<br>
+                            Ciudad, CP 01000</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="contact-item">
+
+                        <span class="contact-icon">📞</span>
+
+                        <div>
+                            <h4>Teléfono</h4>
+                            <p>+503 7278-8266</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="contact-item">
+
+                        <span class="contact-icon">✉️</span>
+
+                        <div>
+                            <h4>Email</h4>
+                            <p>citas@clinicadentalaura.com</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="contact-item">
+
+                        <span class="contact-icon">🕐</span>
+
+                        <div>
+                            <h4>Horario</h4>
+                            <p>Lun - Vie: 9:00 - 19:00<br>
+                            Sáb: 9:00 - 14:00</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <form class="contact-form" id="appointmentForm">
+
+                    <div class="form-group">
+
+                        <label for="nombre">Nombre completo</label>
+
+                        <input
+                            type="text"
+                            id="nombre"
+                            name="nombre"
+                            placeholder="Tu nombre"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-row">
+
+                        <div class="form-group">
+
+                            <label for="correo">Correo electrónico</label>
+
+                            <input
+                                type="email"
+                                id="correo"
+                                name="correo"
+                                placeholder="tu@email.com"
+                                required
+                            >
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="telefono">Teléfono</label>
+
+                            <input
+                                type="tel"
+                                id="telefono"
+                                name="telefono"
+                                placeholder="00 1234 5678"
+                                required
+                            >
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="servicio">Servicio de interés</label>
+
+                        <select id="servicio" name="servicio" required>
+
+                            <option value="">Selecciona un servicio</option>
+                            <option>Ortodoncia</option>
+                            <option>Implantes Dentales</option>
+                            <option>Blanqueamiento</option>
+                            <option>Estética Dental</option>
+                            <option>Endodoncia</option>
+                            <option>Odontopediatría</option>
+
+                        </select>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="mensaje">Mensaje (opcional)</label>
+
+                        <textarea
+                            id="mensaje"
+                            name="mensaje"
+                            placeholder="Cuéntanos cómo podemos ayudarte..."
+                        ></textarea>
+
+                    </div>
+
+
+                    <button type="submit" class="btn submit-btn">
+                        Enviar solicitud de cita
+                    </button>
+
+                    <p id="formMessage" aria-live="polite"></p>
+
+                    <small>
+                        Al enviar aceptas nuestra política de privacidad.
+                        Te contactaremos para confirmar tu cita.
+                    </small>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer class="footer">
+
+        <div class="container footer-grid">
+
+            <div class="footer-brand">
+
+                <a href="#inicio" class="logo">
+                    <span class="tooth">🦷</span>
+                    Aura<span>Dental</span>
+                </a>
+
+                <p>
+                    Transformamos sonrisas con excelencia,
+                    tecnología y un trato humano excepcional.
+                </p>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>Navegación</h3>
+
+                <a href="#inicio">Inicio</a>
+                <a href="#servicios">Servicios</a>
+                <a href="#nosotros">Nosotros</a>
+                <a href="#testimonios">Testimonios</a>
+                <a href="#contacto">Contacto</a>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>Servicios</h3>
+
+                <a href="#servicios">Ortodoncia</a>
+                <a href="#servicios">Implantes</a>
+                <a href="#servicios">Blanqueamiento</a>
+                <a href="#servicios">Estética Dental</a>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>Contacto</h3>
+
+                <span>Av. Paleca, N° 12-B, Zona Centro</span>
+                <span>+503 7278-8266</span>
+                <span>citas@clinicadentalaura.com</span>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+            © 2025 Clínica Dental Aura. Todos los derechos reservados.
+        </div>
+
+    </footer>
+
+    <button id="backTop" aria-label="Volver arriba">↑</button>
+
+</body>
+</html>
